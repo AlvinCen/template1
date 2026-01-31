@@ -8,21 +8,31 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden flex flex-col h-full border border-gray-100">
+    <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden flex flex-col h-full border border-gray-100 relative">
+      {/* Out of Stock Overlay */}
+      {product.outOfStock && (
+        <div className="absolute inset-0 bg-black bg-opacity-40 z-10 rounded-xl pointer-events-none" />
+      )}
+
       <div className="relative aspect-square overflow-hidden bg-gray-100">
-        <img 
-          src={product.imageUrl} 
-          alt={product.name} 
+        <img
+          src={product.imageUrl}
+          alt={product.name}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
         />
         {product.isBestSeller && (
-          <div className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+          <div className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-20">
             TERLARIS
           </div>
         )}
+        {product.outOfStock && (
+          <div className="absolute top-3 right-3 bg-gray-800 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-20">
+            HABIS
+          </div>
+        )}
       </div>
-      
-      <div className="p-5 flex flex-col flex-grow">
+
+      <div className="p-5 flex flex-col flex-grow relative z-0">
         <div className="text-xs font-semibold text-primary uppercase tracking-wide mb-2">
           {product.category}
         </div>
@@ -32,7 +42,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <p className="text-gray-500 text-sm mb-4 line-clamp-2 flex-grow">
           {product.description}
         </p>
-        
+
         <div className="mb-4 space-y-1">
           {product.features.slice(0, 2).map((feat, idx) => (
             <div key={idx} className="flex items-center text-xs text-gray-600">

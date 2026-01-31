@@ -8,6 +8,7 @@ export interface Product {
   imageUrl: string;
   shopeeUrl: string;
   isBestSeller?: boolean;
+  outOfStock?: boolean;
 }
 
 export interface Testimonial {

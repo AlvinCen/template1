@@ -1,0 +1,12884 @@
+// Auto-generated catalog constants from PDF extraction
+// Generated: 2026-01-30
+// Total products: 202
+
+export interface Price {
+  min: number;
+  max: number;
+  currency: string;
+  rawText: string;
+}
+
+export interface ProductVariant {
+  variantName: string;
+  productCode?: string;
+  packageContents: string[];
+  price: Price;
+}
+
+export interface ImageReference {
+  sourcePdf: string;
+  page: number;
+  caption?: string;
+}
+
+export interface ProductSource {
+  pdf: string;
+  pages: number[];
+  rawSnippets: string[];
+}
+
+export interface ProductSpecs {
+  material?: string[];
+  finishing?: string[];
+  dimensions?: string[];
+  capacity?: string[];
+  gridSpacing?: string[];
+  notes?: string[];
+}
+
+export interface Product {
+  id: string;
+  category: string;
+  productLine: string;
+  title: string;
+  subtitle?: string;
+  specs: ProductSpecs;
+  features: string[];
+  variants: ProductVariant[];
+  images: ImageReference[];
+  source: ProductSource;
+  needsReview: boolean;
+}
+
+export interface CatalogMeta {
+  brand: {
+    name: string;
+    tagline: string;
+    whatsapp: string;
+    handles: {
+      shopee: string;
+    };
+  };
+  globalSellingPoints: string[];
+  notes: string[];
+}
+
+export const CATALOG_META: CatalogMeta = {
+  "brand": {
+    "name": "Laquila Store",
+    "tagline": "SiPaling Kandang \u2014 Mengerti Kebutuhan Hewan Anda",
+    "whatsapp": "0856 2444 9240",
+    "handles": {
+      "shopee": "LaquilaStore1"
+    }
+  },
+  "globalSellingPoints": [
+    "Material utama Galvanis (tahan karat & korosi)",
+    "Finishing Powder Coating (finishing premium, perlindungan ekstra)",
+    "Banyak varian produk (tipe, ukuran, warna, aksesoris bisa disesuaikan)",
+    "Desain segmented, modern, kokoh & praktis",
+    "Setiap produk memiliki video tutorial perakitan",
+    "Harga bersaing, banyak promo, garansi & jaminan kualitas"
+  ],
+  "notes": [
+    "Semua teks/angka diambil dari PDF. Jika ada yang tidak terbaca, tandai 'needsReview: true'."
+  ]
+};
+
+export const PRODUCTS: Product[] = [
+  {
+    "id": "kandang-ayam-baterai-4p-120-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai",
+    "title": "Kandang Ayam Baterai 4P/120 ECO SERIES",
+    "subtitle": "Kapasitas 8 ekor (2 ekor/pintu)",
+    "specs": {
+      "material": [
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating"
+      ],
+      "dimensions": [
+        "55 x 120 x 35/30 cm"
+      ],
+      "capacity": [
+        "8 ekor",
+        "2 ekor per pintu"
+      ],
+      "notes": [
+        "Grade 2 - ECO Series",
+        "3-5 Tahun tergantung kondisi dan perawatan"
+      ]
+    },
+    "features": [
+      "Desain modern, kokoh & praktis",
+      "Harga lebih rendah, mengutamakan fungsi",
+      "Ideal untuk pemula"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Baterai 4P/120"
+        ],
+        "price": {
+          "min": 110000,
+          "max": 110000,
+          "currency": "IDR",
+          "rawText": "110.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 3,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P120 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "rawSnippets": [
+        "ECO SERIES",
+        "55 x 120 x 35/30",
+        "8 ekor"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-ayam-baterai-4p-110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai",
+    "title": "Kandang Ayam Baterai 4P/110 ECO SERIES",
+    "subtitle": "Kapasitas 8 ekor (2 ekor/pintu)",
+    "specs": {
+      "material": [
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating"
+      ],
+      "dimensions": [
+        "55 x 110 x 35/30 cm"
+      ],
+      "capacity": [
+        "8 ekor",
+        "2 ekor per pintu"
+      ]
+    },
+    "features": [
+      "Desain modern, kokoh & praktis",
+      "Ideal untuk pemula"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Baterai 4P/110"
+        ],
+        "price": {
+          "min": 120000,
+          "max": 120000,
+          "currency": "IDR",
+          "rawText": "120.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 3,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "rawSnippets": [
+        "4P/110",
+        "55 x 110 x 35/30"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-ayam-baterai-6p-110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai",
+    "title": "Kandang Ayam Baterai 6P/110 ECO SERIES",
+    "subtitle": "Kapasitas 6 ekor (1 ekor/pintu)",
+    "specs": {
+      "material": [
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating"
+      ],
+      "dimensions": [
+        "55 x 110 x 35/30 cm"
+      ],
+      "capacity": [
+        "6 ekor",
+        "1 ekor per pintu"
+      ]
+    },
+    "features": [
+      "Desain modern, kokoh & praktis",
+      "Ideal untuk pemula"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Baterai 6P/110"
+        ],
+        "price": {
+          "min": 125000,
+          "max": 125000,
+          "currency": "IDR",
+          "rawText": "125.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 3,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/6P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "rawSnippets": [
+        "6P/110"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-ayam-baterai-industrial",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai Industrial",
+    "title": "Kandang Ayam Baterai INDUSTRIAL GRADE",
+    "subtitle": "Multi varian ukuran",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "55 x 120 x 35/30 cm",
+        "55 x 110 x 35/30 cm"
+      ],
+      "capacity": [
+        "6-8 ekor"
+      ],
+      "notes": [
+        "Grade 1 - Industrial SPEC",
+        "8-10 Tahun tergantung kondisi"
+      ]
+    },
+    "features": [
+      "Harga lebih tinggi",
+      "Kokoh",
+      "Investasi jangka panjang"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja 4P/120",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 95000,
+          "max": 95000,
+          "currency": "IDR",
+          "rawText": "95.000"
+        }
+      },
+      {
+        "variantName": "Kandang Saja 4P/110",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 160000,
+          "max": 160000,
+          "currency": "IDR",
+          "rawText": "160.000"
+        }
+      },
+      {
+        "variantName": "Kandang Saja 6P/110",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 170000,
+          "max": 170000,
+          "currency": "IDR",
+          "rawText": "170.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit 4P/120",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 252000,
+          "max": 252000,
+          "currency": "IDR",
+          "rawText": "252.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit 4P/110",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 263000,
+          "max": 263000,
+          "currency": "IDR",
+          "rawText": "263.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit 6P/110",
+        "packageContents": [
+          "Baterai"
+        ],
+        "price": {
+          "min": 267000,
+          "max": 267000,
+          "currency": "IDR",
+          "rawText": "267.000"
+        }
+      },
+      {
+        "variantName": "Kandang Rangka 1 Tingkat 4P/120",
+        "packageContents": [
+          "Baterai + Rangka"
+        ],
+        "price": {
+          "min": 240000,
+          "max": 240000,
+          "currency": "IDR",
+          "rawText": "240.000"
+        }
+      },
+      {
+        "variantName": "Kandang Rangka 1 Tingkat 4P/110",
+        "packageContents": [
+          "Baterai + Rangka"
+        ],
+        "price": {
+          "min": 420000,
+          "max": 420000,
+          "currency": "IDR",
+          "rawText": "420.000"
+        }
+      },
+      {
+        "variantName": "Kandang Rangka 1 Tingkat 6P/110",
+        "packageContents": [
+          "Baterai + Rangka"
+        ],
+        "price": {
+          "min": 430000,
+          "max": 430000,
+          "currency": "IDR",
+          "rawText": "430.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 4,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/Baterai Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "rawSnippets": [
+        "INDUSTRIAL GRADE"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l25-talang",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Talang",
+    "title": "Kandang Puyuh L25 Talang 20 Ekor",
+    "subtitle": "Kapasitas 20-26 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver, Putih"
+      ],
+      "dimensions": [
+        "120 x 25 cm"
+      ],
+      "capacity": [
+        "20-26 ekor"
+      ],
+      "gridSpacing": [
+        "Pagar 3cm",
+        "Jarak 1.8cm"
+      ],
+      "notes": [
+        "Cocok untuk kandang breeding"
+      ]
+    },
+    "features": [
+      "Lubang baut untuk aplikasi ke rangka",
+      "Sekat pembatas pada rak telur",
+      "Ujung rak telur bending bulat",
+      "Bukaan pintu luas"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L25 TLG",
+        "packageContents": [
+          "1 Set Baterai L25 TLG"
+        ],
+        "price": {
+          "min": 135000,
+          "max": 135000,
+          "currency": "IDR",
+          "rawText": "135.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit P1",
+        "productCode": "Baterai L25 TLG",
+        "packageContents": [
+          "1 Set Baterai L25 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x25",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 235000,
+          "max": 235000,
+          "currency": "IDR",
+          "rawText": "235.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "productCode": "Baterai L25 TLG",
+        "packageContents": [
+          "1 Set Baterai L25 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x25",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "2 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 240000,
+          "max": 240000,
+          "currency": "IDR",
+          "rawText": "240.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 4,
+        "localPath": "/assets/image/PUYUH/L25/L25 Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        4
+      ],
+      "rawSnippets": [
+        "L25",
+        "20-26 ekor",
+        "TALANG"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l25-otomatis",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Otomatis",
+    "title": "Kandang Puyuh L25 Otomatis 20 Ekor",
+    "subtitle": "Kapasitas 20-26 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver, Putih"
+      ],
+      "dimensions": [
+        "120 x 25 cm"
+      ],
+      "capacity": [
+        "20-26 ekor"
+      ],
+      "notes": [
+        "Rak telur otomatis 10cm"
+      ]
+    },
+    "features": [
+      "Tempat pakan otomatis",
+      "Pakan tidak mudah tercecer",
+      "First in first out"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L25 OTO",
+        "packageContents": [
+          "1 Set Baterai L25 OTO"
+        ],
+        "price": {
+          "min": 140000,
+          "max": 140000,
+          "currency": "IDR",
+          "rawText": "140.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "productCode": "Baterai L25 OTO",
+        "packageContents": [
+          "1 Set Baterai L25 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x25",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8"
+        ],
+        "price": {
+          "min": 227000,
+          "max": 227000,
+          "currency": "IDR",
+          "rawText": "227.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "productCode": "Baterai L25 OTO",
+        "packageContents": [
+          "1 Set Baterai L25 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x25",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "2 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm"
+        ],
+        "price": {
+          "min": 230000,
+          "max": 230000,
+          "currency": "IDR",
+          "rawText": "230.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 4,
+        "localPath": "/assets/image/PUYUH/L25/L25TMO.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        4
+      ],
+      "rawSnippets": [
+        "L25 OTO",
+        "OTOMATIS"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l50-talang",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Talang",
+    "title": "Kandang Puyuh L50 Talang 40 Ekor",
+    "subtitle": "Kapasitas 40-46 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver, Putih"
+      ],
+      "dimensions": [
+        "120 x 50 cm"
+      ],
+      "capacity": [
+        "40-46 ekor"
+      ]
+    },
+    "features": [
+      "Tersedia paket fullset rangka",
+      "Cocok untuk peternak rumahan"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L50 TLG",
+        "packageContents": [
+          "1 Set Baterai L50 TLG"
+        ],
+        "price": {
+          "min": 190000,
+          "max": 190000,
+          "currency": "IDR",
+          "rawText": "190.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "1 Set Baterai L50 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x50",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 290000,
+          "max": 290000,
+          "currency": "IDR",
+          "rawText": "290.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "1 Set Baterai L50 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x50",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "4 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 300000,
+          "max": 300000,
+          "currency": "IDR",
+          "rawText": "300.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 5,
+        "localPath": "/assets/image/PUYUH/L50-200/L50 Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        5
+      ],
+      "rawSnippets": [
+        "L50 TLG",
+        "40-46 ekor"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l50-otomatis",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Otomatis",
+    "title": "Kandang Puyuh L50 Otomatis 40 Ekor",
+    "subtitle": "Kapasitas 40-46 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver, Putih"
+      ],
+      "dimensions": [
+        "120 x 50 cm"
+      ],
+      "capacity": [
+        "40-46 ekor"
+      ]
+    },
+    "features": [
+      "Tempat pakan otomatis",
+      "Tersedia paket fullset rangka"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L50 OTO",
+        "packageContents": [
+          "1 Set Baterai L50 OTO"
+        ],
+        "price": {
+          "min": 190000,
+          "max": 190000,
+          "currency": "IDR",
+          "rawText": "190.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "1 Set Baterai L50 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x50",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8"
+        ],
+        "price": {
+          "min": 280000,
+          "max": 280000,
+          "currency": "IDR",
+          "rawText": "280.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "1 Set Baterai L50 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x50",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "4 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm"
+        ],
+        "price": {
+          "min": 290000,
+          "max": 290000,
+          "currency": "IDR",
+          "rawText": "290.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 5,
+        "localPath": "/assets/image/PUYUH/L50-200/L50TMO.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        5
+      ],
+      "rawSnippets": [
+        "L50 OTO"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l60-talang",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Talang",
+    "title": "Kandang Puyuh L60 Talang 50 Ekor",
+    "subtitle": "Kapasitas 50-60 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "120 x 60 cm"
+      ],
+      "capacity": [
+        "50-60 ekor"
+      ]
+    },
+    "features": [
+      "Tersedia paket fullset rangka"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L60 TLG",
+        "packageContents": [
+          "1 Set Baterai L60 TLG"
+        ],
+        "price": {
+          "min": 210000,
+          "max": 210000,
+          "currency": "IDR",
+          "rawText": "210.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "1 Set Baterai L60 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x60",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 315000,
+          "max": 315000,
+          "currency": "IDR",
+          "rawText": "315.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "1 Set Baterai L60 TLG",
+          "4 C-Ring",
+          "1 Ram PVC 120x60",
+          "100 Kabel Ties",
+          "1 Talang Pakan + Tutup",
+          "4 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm",
+          "2 Hook Talang"
+        ],
+        "price": {
+          "min": 330000,
+          "max": 330000,
+          "currency": "IDR",
+          "rawText": "330.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 6,
+        "localPath": "/assets/image/PUYUH/L60-250/L60 Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        6
+      ],
+      "rawSnippets": [
+        "L60 TLG",
+        "50-60 ekor"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-puyuh-l60-otomatis",
+    "category": "Kandang Puyuh",
+    "productLine": "Baterai Otomatis",
+    "title": "Kandang Puyuh L60 Otomatis 50 Ekor",
+    "subtitle": "Kapasitas 50-60 ekor",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "120 x 60 cm"
+      ],
+      "capacity": [
+        "50-60 ekor"
+      ]
+    },
+    "features": [
+      "Tempat pakan otomatis"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "productCode": "Baterai L60 OTO",
+        "packageContents": [
+          "1 Set Baterai L60 OTO"
+        ],
+        "price": {
+          "min": 210000,
+          "max": 210000,
+          "currency": "IDR",
+          "rawText": "210.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "1 Set Baterai L60 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x60",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "2 Nipple P1 (kuning)",
+          "2 M Selang 3/8"
+        ],
+        "price": {
+          "min": 300000,
+          "max": 300000,
+          "currency": "IDR",
+          "rawText": "300.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "1 Set Baterai L60 OTO",
+          "4 C-Ring",
+          "1 Ram PVC 120x60",
+          "100 Kabel Ties",
+          "2 Tempat Pakan",
+          "4 Nipple A9 (Merah)",
+          "1 Pipa PVC 130cm"
+        ],
+        "price": {
+          "min": 315000,
+          "max": 315000,
+          "currency": "IDR",
+          "rawText": "315.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 6,
+        "localPath": "/assets/image/PUYUH/L60-250/L60TMO.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        2,
+        6
+      ],
+      "rawSnippets": [
+        "L60 OTO"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-kelinci-carrier-xl",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Kandang Kelinci Carrier XL",
+    "subtitle": "80x50x46 cm",
+    "specs": {
+      "material": [
+        "Kandang: Galvanis 2.2 & 2.7mm",
+        "Loyang: Plat Kalerbon 0.45mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver, Putih, Merah, Biru, Pink, Ungu, Toska, Kuning"
+      ],
+      "dimensions": [
+        "80x50x46 cm"
+      ],
+      "capacity": [
+        "Multi fungsi"
+      ]
+    },
+    "features": [
+      "Desain modern",
+      "Tatakan dari plat tebal anti bocor",
+      "Sekat bisa dilepas pasang",
+      "Mudah bongkar pasang",
+      "Bisa ditumpuk 5 tingkat",
+      "Multi fungsi sebagai breeding dan cargo"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait"
+        ],
+        "price": {
+          "min": 300000,
+          "max": 300000,
+          "currency": "IDR",
+          "rawText": "300.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait",
+          "15 Kabel Ties",
+          "1 Alas Bambu",
+          "2 Tempat Pakan Akrilik",
+          "2 Botol Navo 250 ml"
+        ],
+        "price": {
+          "min": 420000,
+          "max": 420000,
+          "currency": "IDR",
+          "rawText": "420.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Kelinci.pdf",
+        "page": 4,
+        "localPath": "/assets/image/KELINCI/XL Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Kelinci.pdf",
+      "pages": [
+        2,
+        4
+      ],
+      "rawSnippets": [
+        "Carrier XL",
+        "80x50x46"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-kelinci-carrier-l",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Kandang Kelinci Carrier L",
+    "subtitle": "65x45x41 cm",
+    "specs": {
+      "material": [
+        "Kandang: Galvanis 2.2 & 2.7mm",
+        "Loyang: Plat Kalerbon 0.45mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "65x45x41 cm"
+      ]
+    },
+    "features": [
+      "Desain modern",
+      "Mudah bongkar pasang",
+      "Multi fungsi"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait"
+        ],
+        "price": {
+          "min": 260000,
+          "max": 260000,
+          "currency": "IDR",
+          "rawText": "260.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait",
+          "15 Kabel Ties",
+          "1 Alas Bambu",
+          "2 Tempat Pakan Akrilik",
+          "2 Botol Navo 250 ml"
+        ],
+        "price": {
+          "min": 370000,
+          "max": 370000,
+          "currency": "IDR",
+          "rawText": "370.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Kelinci.pdf",
+        "page": 4,
+        "localPath": "/assets/image/KELINCI/L Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Kelinci.pdf",
+      "pages": [
+        2,
+        4
+      ],
+      "rawSnippets": [
+        "Carrier L",
+        "65x45x41"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-kelinci-carrier-m",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Kandang Kelinci Carrier M",
+    "subtitle": "45x35x36 cm",
+    "specs": {
+      "material": [
+        "Kandang: Galvanis 2.2 & 2.7mm",
+        "Loyang: Plat Kalerbon 0.45mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "45x35x36 cm"
+      ]
+    },
+    "features": [
+      "Desain modern",
+      "Mudah bongkar pasang"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait"
+        ],
+        "price": {
+          "min": 180000,
+          "max": 180000,
+          "currency": "IDR",
+          "rawText": "180.000"
+        }
+      },
+      {
+        "variantName": "Kandang Komplit",
+        "packageContents": [
+          "Kandang",
+          "Loyang",
+          "4 Per Kait",
+          "15 Kabel Ties",
+          "1 Alas Bambu",
+          "1 Tempat Pakan Akrilik",
+          "1 Botol Navo 250 ml"
+        ],
+        "price": {
+          "min": 250000,
+          "max": 250000,
+          "currency": "IDR",
+          "rawText": "250.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Kelinci.pdf",
+        "page": 4,
+        "localPath": "/assets/image/KELINCI/M Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Kelinci.pdf",
+      "pages": [
+        2,
+        4
+      ],
+      "rawSnippets": [
+        "Carrier M",
+        "45x35x36"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "kandang-kelinci-breeding-2-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Breeding",
+    "title": "Kandang Kelinci Breeding 2 Hole",
+    "subtitle": "Multi ukuran & kerapatan",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating Hitam, Silver & Putih"
+      ],
+      "gridSpacing": [
+        "Standar: 1.8cm lantai 1.3cm",
+        "Rapat: full 1.3cm"
+      ],
+      "dimensions": [
+        "80x70x40 cm",
+        "100x70x50 cm"
+      ]
+    },
+    "features": [
+      "Umur pakai lebih panjang dengan proteksi coating",
+      "Multi ukuran"
+    ],
+    "variants": [
+      {
+        "variantName": "80x70x40 Standar",
+        "packageContents": [
+          "Kandang Breeding 2H"
+        ],
+        "price": {
+          "min": 270000,
+          "max": 270000,
+          "currency": "IDR",
+          "rawText": "270.000"
+        }
+      },
+      {
+        "variantName": "80x70x40 Rapat",
+        "packageContents": [
+          "Kandang Breeding 2H"
+        ],
+        "price": {
+          "min": 340000,
+          "max": 340000,
+          "currency": "IDR",
+          "rawText": "340.000"
+        }
+      },
+      {
+        "variantName": "100x70x50 Standar",
+        "packageContents": [
+          "Kandang Breeding 2H"
+        ],
+        "price": {
+          "min": 320000,
+          "max": 320000,
+          "currency": "IDR",
+          "rawText": "320.000"
+        }
+      },
+      {
+        "variantName": "100x70x50 Rapat",
+        "packageContents": [
+          "Kandang Breeding 2H"
+        ],
+        "price": {
+          "min": 370000,
+          "max": 370000,
+          "currency": "IDR",
+          "rawText": "370.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Kelinci.pdf",
+        "page": 5,
+        "localPath": "/assets/image/KELINCI/Kandang Kelinci Breeding 1.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Kelinci.pdf",
+      "pages": [
+        3,
+        5
+      ],
+      "rawSnippets": [
+        "2 Hole",
+        "Breeding"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "mini-aviary-120x70x150",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Mini Aviary 120x70x150",
+    "subtitle": "Burung besar / reptil",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "120x70x150 cm"
+      ],
+      "gridSpacing": [
+        "\u00b11.3cm"
+      ]
+    },
+    "features": [
+      "Dilengkapi roda & banyak pintu",
+      "Menggunakan dudukan rangka siku 30cm",
+      "Leveling 3 tingkat"
+    ],
+    "variants": [
+      {
+        "variantName": "Kandang Saja",
+        "packageContents": [
+          "Mini Aviary"
+        ],
+        "price": {
+          "min": 820000,
+          "max": 820000,
+          "currency": "IDR",
+          "rawText": "820.000"
+        }
+      },
+      {
+        "variantName": "Kandang + Dudukan",
+        "packageContents": [
+          "Mini Aviary",
+          "Rangka Siku"
+        ],
+        "price": {
+          "min": 982000,
+          "max": 982000,
+          "currency": "IDR",
+          "rawText": "982.000"
+        }
+      },
+      {
+        "variantName": "Komplit",
+        "packageContents": [
+          "Mini Aviary",
+          "Rangka",
+          "Aksesoris"
+        ],
+        "price": {
+          "min": 1150000,
+          "max": 1150000,
+          "currency": "IDR",
+          "rawText": "1.150.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Burung.pdf",
+        "page": 3,
+        "localPath": "/assets/image/BURUNG/Aviary 120x70.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Burung.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "rawSnippets": [
+        "Mini Aviary",
+        "120x70x150"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "umbaran-burung-xl",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Umbaran",
+    "title": "Umbaran Burung XL",
+    "subtitle": "78x48x130 cm",
+    "specs": {
+      "material": [
+        "Galvanis 1.6, 2.2 & 2.7mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "dimensions": [
+        "78x48x130 cm"
+      ],
+      "gridSpacing": [
+        "\u00b11.1cm"
+      ]
+    },
+    "features": [
+      "Tanpa rangka tambahan",
+      "Custom tinggi kelipatan 50cm",
+      "Cocok untuk burung kecil & exotic"
+    ],
+    "variants": [
+      {
+        "variantName": "Paket 1",
+        "packageContents": [
+          "Umbaran XL"
+        ],
+        "price": {
+          "min": 478000,
+          "max": 478000,
+          "currency": "IDR",
+          "rawText": "478.000"
+        }
+      },
+      {
+        "variantName": "Paket 2",
+        "packageContents": [
+          "Umbaran XL"
+        ],
+        "price": {
+          "min": 624000,
+          "max": 624000,
+          "currency": "IDR",
+          "rawText": "624.000"
+        }
+      },
+      {
+        "variantName": "Paket 3",
+        "packageContents": [
+          "Umbaran XL"
+        ],
+        "price": {
+          "min": 650000,
+          "max": 650000,
+          "currency": "IDR",
+          "rawText": "650.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Burung.pdf",
+        "page": 6,
+        "localPath": "/assets/image/BURUNG/XL Utama BRG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Burung.pdf",
+      "pages": [
+        2,
+        6
+      ],
+      "rawSnippets": [
+        "Umbaran XL",
+        "78x48x130"
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "paket-panggung-4p110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 4P/110 ECO",
+    "subtitle": "Sistem panggung dengan kandang 4 pintu 110cm - ECO Series",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating - ECO Series"
+      ],
+      "capacity": [
+        "228 - 1.032 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 4 pintu 110cm, 2 ekor per pintu",
+        "Grade 2 - ECO Series"
+      ]
+    },
+    "features": [
+      "Paket lengkap termasuk bangunan",
+      "Atap Asbes/Spandek",
+      "Set kandang/baterai",
+      "Talang pakan & nipple drinker",
+      "Pipa air & box vitamin",
+      "Penerangan listrik"
+    ],
+    "variants": [
+      {
+        "variantName": "228 Ekor (7.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 23220000,
+          "max": 23220000,
+          "currency": "IDR",
+          "rawText": "23.220.000"
+        }
+      },
+      {
+        "variantName": "324 Ekor (9.9x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 30840000,
+          "max": 30840000,
+          "currency": "IDR",
+          "rawText": "30.840.000"
+        }
+      },
+      {
+        "variantName": "420 Ekor (12x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 37740000,
+          "max": 37740000,
+          "currency": "IDR",
+          "rawText": "37.740.000"
+        }
+      },
+      {
+        "variantName": "456 Ekor (7.7x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 43860000,
+          "max": 43860000,
+          "currency": "IDR",
+          "rawText": "43.860.000"
+        }
+      },
+      {
+        "variantName": "516 Ekor (14.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 45120000,
+          "max": 45120000,
+          "currency": "IDR",
+          "rawText": "45.120.000"
+        }
+      },
+      {
+        "variantName": "552 Ekor (8.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 50700000,
+          "max": 50700000,
+          "currency": "IDR",
+          "rawText": "50.700.000"
+        }
+      },
+      {
+        "variantName": "612 Ekor (16.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 52320000,
+          "max": 52320000,
+          "currency": "IDR",
+          "rawText": "52.320.000"
+        }
+      },
+      {
+        "variantName": "648 Ekor (10x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 57960000,
+          "max": 57960000,
+          "currency": "IDR",
+          "rawText": "57.960.000"
+        }
+      },
+      {
+        "variantName": "708 Ekor (18.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 59700000,
+          "max": 59700000,
+          "currency": "IDR",
+          "rawText": "59.700.000"
+        }
+      },
+      {
+        "variantName": "744 Ekor (11x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 64320000,
+          "max": 64320000,
+          "currency": "IDR",
+          "rawText": "64.320.000"
+        }
+      },
+      {
+        "variantName": "840 Ekor (12x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 70740000,
+          "max": 70740000,
+          "currency": "IDR",
+          "rawText": "70.740.000"
+        }
+      },
+      {
+        "variantName": "936 Ekor (13.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 77940000,
+          "max": 77940000,
+          "currency": "IDR",
+          "rawText": "77.940.000"
+        }
+      },
+      {
+        "variantName": "1.032 Ekor (14.3x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 84780000,
+          "max": 84780000,
+          "currency": "IDR",
+          "rawText": "84.780.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 4,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        4
+      ],
+      "rawSnippets": [
+        "4 PINTU 110 CM- ECO SERIES"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-panggung-4p110-industrial",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 4P/110 INDUSTRIAL",
+    "subtitle": "Sistem panggung dengan kandang 4 pintu 110cm - Industrial Grade",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "228 - 1.032 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 4 pintu 110cm, 2 ekor per pintu",
+        "Grade 1 - Industrial SPEC",
+        "Umur pakai 8-10 tahun"
+      ]
+    },
+    "features": [
+      "Material Industrial Grade",
+      "Powder Coating premium",
+      "Umur pakai 8-10 tahun",
+      "Investasi jangka panjang"
+    ],
+    "variants": [
+      {
+        "variantName": "228 Ekor (7.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 24180000,
+          "max": 24180000,
+          "currency": "IDR",
+          "rawText": "24.180.000"
+        }
+      },
+      {
+        "variantName": "324 Ekor (9.9x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 32220000,
+          "max": 32220000,
+          "currency": "IDR",
+          "rawText": "32.220.000"
+        }
+      },
+      {
+        "variantName": "420 Ekor (12x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 39540000,
+          "max": 39540000,
+          "currency": "IDR",
+          "rawText": "39.540.000"
+        }
+      },
+      {
+        "variantName": "456 Ekor (7.7x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 45840000,
+          "max": 45840000,
+          "currency": "IDR",
+          "rawText": "45.840.000"
+        }
+      },
+      {
+        "variantName": "516 Ekor (14.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 47400000,
+          "max": 47400000,
+          "currency": "IDR",
+          "rawText": "47.400.000"
+        }
+      },
+      {
+        "variantName": "552 Ekor (8.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 53040000,
+          "max": 53040000,
+          "currency": "IDR",
+          "rawText": "53.040.000"
+        }
+      },
+      {
+        "variantName": "612 Ekor (16.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 54900000,
+          "max": 54900000,
+          "currency": "IDR",
+          "rawText": "54.900.000"
+        }
+      },
+      {
+        "variantName": "648 Ekor (10x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 60670000,
+          "max": 60670000,
+          "currency": "IDR",
+          "rawText": "60.670.000"
+        }
+      },
+      {
+        "variantName": "708 Ekor (18.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 62700000,
+          "max": 62700000,
+          "currency": "IDR",
+          "rawText": "62.700.000"
+        }
+      },
+      {
+        "variantName": "744 Ekor (11x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 67500000,
+          "max": 67500000,
+          "currency": "IDR",
+          "rawText": "67.500.000"
+        }
+      },
+      {
+        "variantName": "840 Ekor (12x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 74265000,
+          "max": 74265000,
+          "currency": "IDR",
+          "rawText": "74.265.000"
+        }
+      },
+      {
+        "variantName": "936 Ekor (13.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 81900000,
+          "max": 81900000,
+          "currency": "IDR",
+          "rawText": "81.900.000"
+        }
+      },
+      {
+        "variantName": "1.032 Ekor (14.3x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 89160000,
+          "max": 89160000,
+          "currency": "IDR",
+          "rawText": "89.160.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 5,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P110 02.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        5
+      ],
+      "rawSnippets": [
+        "4 PINTU 110 CM- INDUSTRIAL SPEC"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-panggung-4p120-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 4P/120 ECO",
+    "subtitle": "Sistem panggung dengan kandang 4 pintu 120cm - ECO Series",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating - ECO Series"
+      ],
+      "capacity": [
+        "228 - 1.032 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 4 pintu 120cm, 2 ekor per pintu",
+        "Grade 2 - ECO Series"
+      ]
+    },
+    "features": [
+      "Paket lengkap termasuk bangunan",
+      "Kandang lebih panjang 120cm",
+      "Set lengkap siap pakai"
+    ],
+    "variants": [
+      {
+        "variantName": "228 Ekor (8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 24780000,
+          "max": 24780000,
+          "currency": "IDR",
+          "rawText": "24.780.000"
+        }
+      },
+      {
+        "variantName": "324 Ekor (10.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 32880000,
+          "max": 32880000,
+          "currency": "IDR",
+          "rawText": "32.880.000"
+        }
+      },
+      {
+        "variantName": "420 Ekor (13x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 40800000,
+          "max": 40800000,
+          "currency": "IDR",
+          "rawText": "40.800.000"
+        }
+      },
+      {
+        "variantName": "456 Ekor (8.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 46860000,
+          "max": 46860000,
+          "currency": "IDR",
+          "rawText": "46.860.000"
+        }
+      },
+      {
+        "variantName": "516 Ekor (15.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 48840000,
+          "max": 48840000,
+          "currency": "IDR",
+          "rawText": "48.840.000"
+        }
+      },
+      {
+        "variantName": "552 Ekor (9.3x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 53880000,
+          "max": 53880000,
+          "currency": "IDR",
+          "rawText": "53.880.000"
+        }
+      },
+      {
+        "variantName": "612 Ekor (18x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 56820000,
+          "max": 56820000,
+          "currency": "IDR",
+          "rawText": "56.820.000"
+        }
+      },
+      {
+        "variantName": "648 Ekor (10.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 61320000,
+          "max": 61320000,
+          "currency": "IDR",
+          "rawText": "61.320.000"
+        }
+      },
+      {
+        "variantName": "708 Ekor (20.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 64440000,
+          "max": 64440000,
+          "currency": "IDR",
+          "rawText": "64.440.000"
+        }
+      },
+      {
+        "variantName": "744 Ekor (11.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 69120000,
+          "max": 69120000,
+          "currency": "IDR",
+          "rawText": "69.120.000"
+        }
+      },
+      {
+        "variantName": "840 Ekor (13x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 76540000,
+          "max": 76540000,
+          "currency": "IDR",
+          "rawText": "76.540.000"
+        }
+      },
+      {
+        "variantName": "936 Ekor (14.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 83958000,
+          "max": 83958000,
+          "currency": "IDR",
+          "rawText": "83.958.000"
+        }
+      },
+      {
+        "variantName": "1.032 Ekor (15.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 91800000,
+          "max": 91800000,
+          "currency": "IDR",
+          "rawText": "91.800.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 6,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P120 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        6
+      ],
+      "rawSnippets": [
+        "4 PINTU 120 CM- ECO SERIES"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-panggung-4p120-industrial",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 4P/120 INDUSTRIAL",
+    "subtitle": "Sistem panggung dengan kandang 4 pintu 120cm - Industrial Grade",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "228 - 1.032 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 4 pintu 120cm, 2 ekor per pintu",
+        "Grade 1 - Industrial SPEC",
+        "Umur pakai 8-10 tahun"
+      ]
+    },
+    "features": [
+      "Material Industrial Grade",
+      "Kandang lebih panjang 120cm",
+      "Powder Coating premium"
+    ],
+    "variants": [
+      {
+        "variantName": "228 Ekor (8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 25980000,
+          "max": 25980000,
+          "currency": "IDR",
+          "rawText": "25.980.000"
+        }
+      },
+      {
+        "variantName": "324 Ekor (10.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 34500000,
+          "max": 34500000,
+          "currency": "IDR",
+          "rawText": "34.500.000"
+        }
+      },
+      {
+        "variantName": "420 Ekor (13x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 43080000,
+          "max": 43080000,
+          "currency": "IDR",
+          "rawText": "43.080.000"
+        }
+      },
+      {
+        "variantName": "456 Ekor (8.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 49260000,
+          "max": 49260000,
+          "currency": "IDR",
+          "rawText": "49.260.000"
+        }
+      },
+      {
+        "variantName": "516 Ekor (15.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 51600000,
+          "max": 51600000,
+          "currency": "IDR",
+          "rawText": "51.600.000"
+        }
+      },
+      {
+        "variantName": "552 Ekor (9.3x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 56760000,
+          "max": 56760000,
+          "currency": "IDR",
+          "rawText": "56.760.000"
+        }
+      },
+      {
+        "variantName": "612 Ekor (18x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 60000000,
+          "max": 60000000,
+          "currency": "IDR",
+          "rawText": "60.000.000"
+        }
+      },
+      {
+        "variantName": "648 Ekor (10.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 64680000,
+          "max": 64680000,
+          "currency": "IDR",
+          "rawText": "64.680.000"
+        }
+      },
+      {
+        "variantName": "708 Ekor (20.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 68160000,
+          "max": 68160000,
+          "currency": "IDR",
+          "rawText": "68.160.000"
+        }
+      },
+      {
+        "variantName": "744 Ekor (11.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 73080000,
+          "max": 73080000,
+          "currency": "IDR",
+          "rawText": "73.080.000"
+        }
+      },
+      {
+        "variantName": "840 Ekor (13x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 81000000,
+          "max": 81000000,
+          "currency": "IDR",
+          "rawText": "81.000.000"
+        }
+      },
+      {
+        "variantName": "936 Ekor (14.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 88920000,
+          "max": 88920000,
+          "currency": "IDR",
+          "rawText": "88.920.000"
+        }
+      },
+      {
+        "variantName": "1.032 Ekor (15.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 97260000,
+          "max": 97260000,
+          "currency": "IDR",
+          "rawText": "97.260.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 7,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P120 02.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        7
+      ],
+      "rawSnippets": [
+        "4 PINTU 120 CM- INDUSTRIAL SPEC"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-panggung-6p110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 6P/110 ECO",
+    "subtitle": "Sistem panggung dengan kandang 6 pintu 110cm - ECO Series",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.2 + 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Tanpa Powder Coating - ECO Series"
+      ],
+      "capacity": [
+        "207 - 1.062 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 6 pintu 110cm, 1 ekor per pintu",
+        "Grade 2 - ECO Series"
+      ]
+    },
+    "features": [
+      "Paket lengkap termasuk bangunan",
+      "Kandang 6 pintu lebih banyak sekat",
+      "Cocok untuk ayam petelur"
+    ],
+    "variants": [
+      {
+        "variantName": "207 Ekor (8.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 27900000,
+          "max": 27900000,
+          "currency": "IDR",
+          "rawText": "27.900.000"
+        }
+      },
+      {
+        "variantName": "315 Ekor (12x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 38760000,
+          "max": 38760000,
+          "currency": "IDR",
+          "rawText": "38.760.000"
+        }
+      },
+      {
+        "variantName": "414 Ekor (8.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 52020000,
+          "max": 52020000,
+          "currency": "IDR",
+          "rawText": "52.020.000"
+        }
+      },
+      {
+        "variantName": "423 Ekor (15.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 50280000,
+          "max": 50280000,
+          "currency": "IDR",
+          "rawText": "50.280.000"
+        }
+      },
+      {
+        "variantName": "531 Ekor (18.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 61380000,
+          "max": 61380000,
+          "currency": "IDR",
+          "rawText": "61.380.000"
+        }
+      },
+      {
+        "variantName": "558 Ekor (11x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 66100000,
+          "max": 66100000,
+          "currency": "IDR",
+          "rawText": "66.100.000"
+        }
+      },
+      {
+        "variantName": "603 Ekor (21x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 68760000,
+          "max": 68760000,
+          "currency": "IDR",
+          "rawText": "68.760.000"
+        }
+      },
+      {
+        "variantName": "630 Ekor (12x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 72720000,
+          "max": 72720000,
+          "currency": "IDR",
+          "rawText": "72.720.000"
+        }
+      },
+      {
+        "variantName": "675 Ekor (23.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 76380000,
+          "max": 76380000,
+          "currency": "IDR",
+          "rawText": "76.380.000"
+        }
+      },
+      {
+        "variantName": "702 Ekor (13.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 80160000,
+          "max": 80160000,
+          "currency": "IDR",
+          "rawText": "80.160.000"
+        }
+      },
+      {
+        "variantName": "846 Ekor (15.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 94740000,
+          "max": 94740000,
+          "currency": "IDR",
+          "rawText": "94.740.000"
+        }
+      },
+      {
+        "variantName": "918 Ekor (16.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 101313000,
+          "max": 101313000,
+          "currency": "IDR",
+          "rawText": "101.313.000"
+        }
+      },
+      {
+        "variantName": "1.062 Ekor (18.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 115860000,
+          "max": 115860000,
+          "currency": "IDR",
+          "rawText": "115.860.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 8,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/6P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        8
+      ],
+      "rawSnippets": [
+        "6 PINTU 110 CM- ECO SERIES"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-panggung-6p110-industrial",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Panggung All-In",
+    "title": "Paket Kandang Panggung All-In 6P/110 INDUSTRIAL",
+    "subtitle": "Sistem panggung dengan kandang 6 pintu 110cm - Industrial Grade",
+    "specs": {
+      "material": [
+        "Baja ringan",
+        "Galvanis 2.7 + 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "207 - 1.062 ekor ayam"
+      ],
+      "notes": [
+        "Kandang 6 pintu 110cm, 1 ekor per pintu",
+        "Grade 1 - Industrial SPEC",
+        "Umur pakai 8-10 tahun"
+      ]
+    },
+    "features": [
+      "Material Industrial Grade",
+      "Kandang 6 pintu lebih banyak sekat",
+      "Powder Coating premium",
+      "Investasi jangka panjang"
+    ],
+    "variants": [
+      {
+        "variantName": "207 Ekor (8.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 29460000,
+          "max": 29460000,
+          "currency": "IDR",
+          "rawText": "29.460.000"
+        }
+      },
+      {
+        "variantName": "315 Ekor (12x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 41100000,
+          "max": 41100000,
+          "currency": "IDR",
+          "rawText": "41.100.000"
+        }
+      },
+      {
+        "variantName": "414 Ekor (8.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 55080000,
+          "max": 55080000,
+          "currency": "IDR",
+          "rawText": "55.080.000"
+        }
+      },
+      {
+        "variantName": "423 Ekor (15.5x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 53400000,
+          "max": 53400000,
+          "currency": "IDR",
+          "rawText": "53.400.000"
+        }
+      },
+      {
+        "variantName": "531 Ekor (18.8x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 65340000,
+          "max": 65340000,
+          "currency": "IDR",
+          "rawText": "65.340.000"
+        }
+      },
+      {
+        "variantName": "558 Ekor (11x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 70200000,
+          "max": 70200000,
+          "currency": "IDR",
+          "rawText": "70.200.000"
+        }
+      },
+      {
+        "variantName": "603 Ekor (21x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 73200000,
+          "max": 73200000,
+          "currency": "IDR",
+          "rawText": "73.200.000"
+        }
+      },
+      {
+        "variantName": "630 Ekor (12x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 77400000,
+          "max": 77400000,
+          "currency": "IDR",
+          "rawText": "77.400.000"
+        }
+      },
+      {
+        "variantName": "675 Ekor (23.3x5.5m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 81360000,
+          "max": 81360000,
+          "currency": "IDR",
+          "rawText": "81.360.000"
+        }
+      },
+      {
+        "variantName": "702 Ekor (13.2x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 85380000,
+          "max": 85380000,
+          "currency": "IDR",
+          "rawText": "85.380.000"
+        }
+      },
+      {
+        "variantName": "846 Ekor (15.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 101000000,
+          "max": 101000000,
+          "currency": "IDR",
+          "rawText": "101.000.000"
+        }
+      },
+      {
+        "variantName": "918 Ekor (16.5x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 108000000,
+          "max": 108000000,
+          "currency": "IDR",
+          "rawText": "108.000.000"
+        }
+      },
+      {
+        "variantName": "1.062 Ekor (18.8x8.8m)",
+        "packageContents": [
+          "Struktur bangunan",
+          "Baterai Industrial",
+          "Talang pakan",
+          "Nipple drinker",
+          "Pipa air",
+          "Box vitamin",
+          "Penerangan"
+        ],
+        "price": {
+          "min": 123660000,
+          "max": 123660000,
+          "currency": "IDR",
+          "rawText": "123.660.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "KANDANG PANGGUNG.pdf",
+        "page": 9,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/6P110 02.png"
+      }
+    ],
+    "source": {
+      "pdf": "KANDANG PANGGUNG.pdf",
+      "pages": [
+        1,
+        9
+      ],
+      "rawSnippets": [
+        "6 PINTU 110 CM- INDUSTRIAL SPEC"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-fullset-indus-2-tingkat-tipe-a",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Fullset Industrial",
+    "title": "Paket Fullset Industrial 2 Tingkat Tipe A",
+    "subtitle": "Paket lengkap dengan rangka 2 tingkat tipe A",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm",
+        "Besi Beton 12-16mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "16-24 ekor (2 tingkat)"
+      ],
+      "rangka": [
+        "2 Tingkat",
+        "Besi Beton 12-16mm"
+      ],
+      "notes": [
+        "Industrial Grade",
+        "Paket siap rakit"
+      ]
+    },
+    "features": [
+      "Rangka kokoh 2 tingkat",
+      "Material Industrial Grade",
+      "Paket lengkap siap rakit"
+    ],
+    "variants": [
+      {
+        "variantName": "4P/120",
+        "packageContents": [
+          "2 Unit Baterai 4P/120",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 750000,
+          "max": 750000,
+          "currency": "IDR",
+          "rawText": "750.000"
+        }
+      },
+      {
+        "variantName": "4P/110",
+        "packageContents": [
+          "2 Unit Baterai 4P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 800000,
+          "max": 800000,
+          "currency": "IDR",
+          "rawText": "800.000"
+        }
+      },
+      {
+        "variantName": "6P/110",
+        "packageContents": [
+          "2 Unit Baterai 6P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 820000,
+          "max": 820000,
+          "currency": "IDR",
+          "rawText": "820.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 7,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/Fullset Utama 2 Tingkat.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        7
+      ],
+      "rawSnippets": [
+        "PAKET FULLSET INDUS 2 TINGKAT TIPE A"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-fullset-indus-2-tingkat-tipe-b",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Fullset Industrial",
+    "title": "Paket Fullset Industrial 2 Tingkat Tipe B",
+    "subtitle": "Paket lengkap dengan rangka 2 tingkat tipe B",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm",
+        "Besi Beton 12-16mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "16-24 ekor (2 tingkat)"
+      ],
+      "rangka": [
+        "2 Tingkat",
+        "Besi Beton 12-16mm"
+      ],
+      "notes": [
+        "Industrial Grade",
+        "Paket siap rakit"
+      ]
+    },
+    "features": [
+      "Rangka kokoh 2 tingkat",
+      "Material Industrial Grade",
+      "Paket lengkap siap rakit"
+    ],
+    "variants": [
+      {
+        "variantName": "4P/120",
+        "packageContents": [
+          "2 Unit Baterai 4P/120",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 890000,
+          "max": 890000,
+          "currency": "IDR",
+          "rawText": "890.000"
+        }
+      },
+      {
+        "variantName": "4P/110",
+        "packageContents": [
+          "2 Unit Baterai 4P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 930000,
+          "max": 930000,
+          "currency": "IDR",
+          "rawText": "930.000"
+        }
+      },
+      {
+        "variantName": "6P/110",
+        "packageContents": [
+          "2 Unit Baterai 6P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 950000,
+          "max": 950000,
+          "currency": "IDR",
+          "rawText": "950.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 8,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/Fullset Utama 2 Tingkat (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        8
+      ],
+      "rawSnippets": [
+        "PAKET FULLSET INDUS 2 TINGKAT TIPE B"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-fullset-indus-2-tingkat-tipe-c",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Fullset Industrial",
+    "title": "Paket Fullset Industrial 2 Tingkat Tipe C",
+    "subtitle": "Paket lengkap dengan rangka 2 tingkat tipe C",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm",
+        "Besi Beton 12-16mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "16-24 ekor (2 tingkat)"
+      ],
+      "rangka": [
+        "2 Tingkat",
+        "Besi Beton 12-16mm"
+      ],
+      "notes": [
+        "Industrial Grade",
+        "Paket siap rakit"
+      ]
+    },
+    "features": [
+      "Rangka kokoh 2 tingkat",
+      "Material Industrial Grade",
+      "Paket lengkap siap rakit"
+    ],
+    "variants": [
+      {
+        "variantName": "4P/120",
+        "packageContents": [
+          "2 Unit Baterai 4P/120",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1280000,
+          "max": 1280000,
+          "currency": "IDR",
+          "rawText": "1.280.000"
+        }
+      },
+      {
+        "variantName": "4P/110",
+        "packageContents": [
+          "2 Unit Baterai 4P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1350000,
+          "max": 1350000,
+          "currency": "IDR",
+          "rawText": "1.350.000"
+        }
+      },
+      {
+        "variantName": "6P/110",
+        "packageContents": [
+          "2 Unit Baterai 6P/110",
+          "Rangka 2 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1370000,
+          "max": 1370000,
+          "currency": "IDR",
+          "rawText": "1.370.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 9,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/Fullset Utama 2 Tingkat (3).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        9
+      ],
+      "rawSnippets": [
+        "PAKET FULLSET INDUS 2 TINGKAT TIPE C"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-fullset-indus-3-tingkat",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Fullset Industrial",
+    "title": "Paket Fullset Industrial 3 Tingkat",
+    "subtitle": "Paket lengkap dengan rangka 3 tingkat",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm",
+        "Besi Beton 12-16mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "24-36 ekor (3 tingkat)"
+      ],
+      "rangka": [
+        "3 Tingkat",
+        "Besi Beton 12-16mm"
+      ],
+      "notes": [
+        "Industrial Grade",
+        "Paket siap rakit"
+      ]
+    },
+    "features": [
+      "Rangka kokoh 3 tingkat",
+      "Material Industrial Grade",
+      "Kapasitas lebih besar"
+    ],
+    "variants": [
+      {
+        "variantName": "4P/120",
+        "packageContents": [
+          "3 Unit Baterai 4P/120",
+          "Rangka 3 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1490000,
+          "max": 1490000,
+          "currency": "IDR",
+          "rawText": "1.490.000"
+        }
+      },
+      {
+        "variantName": "4P/110",
+        "packageContents": [
+          "3 Unit Baterai 4P/110",
+          "Rangka 3 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1570000,
+          "max": 1570000,
+          "currency": "IDR",
+          "rawText": "1.570.000"
+        }
+      },
+      {
+        "variantName": "6P/110",
+        "packageContents": [
+          "3 Unit Baterai 6P/110",
+          "Rangka 3 tingkat",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1590000,
+          "max": 1590000,
+          "currency": "IDR",
+          "rawText": "1.590.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 10,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/Fullset Utama 4P (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        10
+      ],
+      "rawSnippets": [
+        "PAKET FULLSET INDUS 3 TINGKAT"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "paket-fullset-indus-3-tingkat-box",
+    "category": "Kandang Ayam",
+    "productLine": "Paket Fullset Industrial",
+    "title": "Paket Fullset Industrial 3 Tingkat + Box",
+    "subtitle": "Paket lengkap dengan rangka 3 tingkat dan box vitamin",
+    "specs": {
+      "material": [
+        "Galvanis 2.7 + 3.4mm",
+        "Besi Beton 12-16mm"
+      ],
+      "finishing": [
+        "Powder Coating - Industrial Spec"
+      ],
+      "capacity": [
+        "24-36 ekor (3 tingkat)"
+      ],
+      "rangka": [
+        "3 Tingkat",
+        "Besi Beton 12-16mm"
+      ],
+      "notes": [
+        "Industrial Grade",
+        "Include box vitamin",
+        "Paket siap rakit"
+      ]
+    },
+    "features": [
+      "Rangka kokoh 3 tingkat",
+      "Material Industrial Grade",
+      "Include box vitamin",
+      "Paket paling lengkap"
+    ],
+    "variants": [
+      {
+        "variantName": "4P/120",
+        "packageContents": [
+          "3 Unit Baterai 4P/120",
+          "Rangka 3 tingkat",
+          "Box vitamin",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1695000,
+          "max": 1695000,
+          "currency": "IDR",
+          "rawText": "1.695.000"
+        }
+      },
+      {
+        "variantName": "4P/110",
+        "packageContents": [
+          "3 Unit Baterai 4P/110",
+          "Rangka 3 tingkat",
+          "Box vitamin",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1840000,
+          "max": 1840000,
+          "currency": "IDR",
+          "rawText": "1.840.000"
+        }
+      },
+      {
+        "variantName": "6P/110",
+        "packageContents": [
+          "3 Unit Baterai 6P/110",
+          "Rangka 3 tingkat",
+          "Box vitamin",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1860000,
+          "max": 1860000,
+          "currency": "IDR",
+          "rawText": "1.860.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List Ayam.pdf",
+        "page": 11,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/Fullset Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List Ayam.pdf",
+      "pages": [
+        11
+      ],
+      "rawSnippets": [
+        "PAKET FULLSET INDUS 3 TINGKAT + BOX"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fullset-puyuh-200-ekor-rangka-hollow",
+    "category": "Kandang Puyuh",
+    "productLine": "Fullset dengan Rangka",
+    "title": "Fullset Puyuh 200 Ekor Rangka Hollow",
+    "subtitle": "Paket fullset 200 ekor dengan rangka hollow",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "capacity": [
+        "200 ekor puyuh"
+      ],
+      "rangka": [
+        "Hollow 1.5x3cm galvanis"
+      ],
+      "notes": [
+        "Ringan & harga ekonomis",
+        "Proses perakitan praktis"
+      ]
+    },
+    "features": [
+      "Rangka hollow ringan",
+      "Paket lengkap untuk 200 ekor",
+      "Harga ekonomis"
+    ],
+    "variants": [
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Hollow",
+          "Talang pakan",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1520000,
+          "max": 1520000,
+          "currency": "IDR",
+          "rawText": "1.520.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Hollow",
+          "Talang pakan",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1940000,
+          "max": 1940000,
+          "currency": "IDR",
+          "rawText": "1.940.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Hollow",
+          "Tempat pakan otomatis",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1720000,
+          "max": 1720000,
+          "currency": "IDR",
+          "rawText": "1.720.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Hollow",
+          "Tempat pakan otomatis",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2140000,
+          "max": 2140000,
+          "currency": "IDR",
+          "rawText": "2.140.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 7,
+        "localPath": "/assets/image/PUYUH/L50-200/Fullset 200 Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        7
+      ],
+      "rawSnippets": [
+        "FULLSET 200 EKOR RANGKA HOLLOW"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fullset-puyuh-200-ekor-rangka-siku",
+    "category": "Kandang Puyuh",
+    "productLine": "Fullset dengan Rangka",
+    "title": "Fullset Puyuh 200 Ekor Rangka Siku",
+    "subtitle": "Paket fullset 200 ekor dengan rangka siku (rekomendasi)",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "capacity": [
+        "200 ekor puyuh"
+      ],
+      "rangka": [
+        "Siku 4x4cm powder coating"
+      ],
+      "notes": [
+        "Kokoh, kuat dan tahan lama",
+        "RECOMMENDED"
+      ]
+    },
+    "features": [
+      "Rangka siku kokoh (rekomendasi)",
+      "Paket lengkap untuk 200 ekor",
+      "Tahan lama"
+    ],
+    "variants": [
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Siku",
+          "Talang pakan",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1785000,
+          "max": 1785000,
+          "currency": "IDR",
+          "rawText": "1.785.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Siku",
+          "Talang pakan",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2390000,
+          "max": 2390000,
+          "currency": "IDR",
+          "rawText": "2.390.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Siku",
+          "Tempat pakan otomatis",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1950000,
+          "max": 1950000,
+          "currency": "IDR",
+          "rawText": "1.950.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Siku",
+          "Tempat pakan otomatis",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2520000,
+          "max": 2520000,
+          "currency": "IDR",
+          "rawText": "2.520.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 8,
+        "localPath": "/assets/image/PUYUH/L50-200/Fullset 200 Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        8
+      ],
+      "rawSnippets": [
+        "FULLSET 200 EKOR RANGKA SIKU"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fullset-puyuh-250-ekor-rangka-hollow",
+    "category": "Kandang Puyuh",
+    "productLine": "Fullset dengan Rangka",
+    "title": "Fullset Puyuh 250 Ekor Rangka Hollow",
+    "subtitle": "Paket fullset 250 ekor dengan rangka hollow",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "capacity": [
+        "250 ekor puyuh"
+      ],
+      "rangka": [
+        "Hollow 1.5x3cm galvanis"
+      ],
+      "notes": [
+        "Ringan & harga ekonomis",
+        "Proses perakitan praktis"
+      ]
+    },
+    "features": [
+      "Rangka hollow ringan",
+      "Paket lengkap untuk 250 ekor",
+      "Harga ekonomis"
+    ],
+    "variants": [
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Hollow",
+          "Talang pakan",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1630000,
+          "max": 1630000,
+          "currency": "IDR",
+          "rawText": "1.630.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Hollow",
+          "Talang pakan",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2050000,
+          "max": 2050000,
+          "currency": "IDR",
+          "rawText": "2.050.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Hollow",
+          "Tempat pakan otomatis",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1840000,
+          "max": 1840000,
+          "currency": "IDR",
+          "rawText": "1.840.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Hollow",
+          "Tempat pakan otomatis",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2260000,
+          "max": 2260000,
+          "currency": "IDR",
+          "rawText": "2.260.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 9,
+        "localPath": "/assets/image/PUYUH/L60-250/Fullset 250 utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        9
+      ],
+      "rawSnippets": [
+        "FULLSET 250 EKOR RANGKA HOLLOW"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "fullset-puyuh-250-ekor-rangka-siku",
+    "category": "Kandang Puyuh",
+    "productLine": "Fullset dengan Rangka",
+    "title": "Fullset Puyuh 250 Ekor Rangka Siku",
+    "subtitle": "Paket fullset 250 ekor dengan rangka siku (rekomendasi)",
+    "specs": {
+      "material": [
+        "Galvanis 2.2, 2.7 & 3.4mm"
+      ],
+      "finishing": [
+        "Powder Coating"
+      ],
+      "capacity": [
+        "250 ekor puyuh"
+      ],
+      "rangka": [
+        "Siku 4x4cm powder coating"
+      ],
+      "notes": [
+        "Kokoh, kuat dan tahan lama",
+        "RECOMMENDED"
+      ]
+    },
+    "features": [
+      "Rangka siku kokoh (rekomendasi)",
+      "Paket lengkap untuk 250 ekor",
+      "Tahan lama"
+    ],
+    "variants": [
+      {
+        "variantName": "TLG Komplit P1",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Siku",
+          "Talang pakan",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 1900000,
+          "max": 1900000,
+          "currency": "IDR",
+          "rawText": "1.900.000"
+        }
+      },
+      {
+        "variantName": "TLG Komplit A9",
+        "packageContents": [
+          "Baterai L50 TLG",
+          "Rangka Siku",
+          "Talang pakan",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2500000,
+          "max": 2500000,
+          "currency": "IDR",
+          "rawText": "2.500.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit P1",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Siku",
+          "Tempat pakan otomatis",
+          "Nipple P1",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2040000,
+          "max": 2040000,
+          "currency": "IDR",
+          "rawText": "2.040.000"
+        }
+      },
+      {
+        "variantName": "OTO Komplit A9",
+        "packageContents": [
+          "Baterai L50 OTO",
+          "Rangka Siku",
+          "Tempat pakan otomatis",
+          "Nipple A9",
+          "Aksesoris lengkap"
+        ],
+        "price": {
+          "min": 2640000,
+          "max": 2640000,
+          "currency": "IDR",
+          "rawText": "2.640.000"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Katalog & Price List PUYUH.pdf",
+        "page": 10,
+        "localPath": "/assets/image/PUYUH/L60-250/Fullset 250 utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Katalog & Price List PUYUH.pdf",
+      "pages": [
+        10
+      ],
+      "rawSnippets": [
+        "FULLSET 250 EKOR RANGKA SIKU"
+      ]
+    },
+    "needsReview": false
+  },
+  {
+    "id": "aksesoris-sekat-kandang-ayam",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Sekat Kandang Ayam",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Ayam Sekat.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Sekat Kandang Ayam"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-alas-bambu",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Alas Bambu",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Bambu (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Alas Bambu"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-sekat-kandang-bebek",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Sekat Kandang Bebek",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Bebek Sekat.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Sekat Kandang Bebek"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-box-air-minum",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Box Air Minum",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Box Air (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Box Air Minum"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-box-vitamin-ayam",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Box Vitamin Ayam",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Box Ayam + Kran.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Box Vitamin Ayam"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-box-payam-rangka",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Box PAyam + Rangka",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Box PAyam + Rangka.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Box PAyam + Rangka"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-box-vitamin-puyuh",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Box Vitamin Puyuh",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Box Puyuh + Kran.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Box Vitamin Puyuh"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-glodok-batok-kelinci",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Glodok Batok Kelinci",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Glodok Batok (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Glodok Batok Kelinci"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-hammock-sugar-glider",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Hammock Sugar Glider",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Hammock (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Hammock Sugar Glider"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-kait",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Kait",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Kait (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kait"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-nipple-air-minum",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Nipple Air Minum",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Nipple (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Nipple Air Minum"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-per",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "PER",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/PER (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "PER"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-1t-set",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam 1T set",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam 1T set.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam 1T set"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-2t-pinggir",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam 2T Pinggir",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam 2T Pinggir.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam 2T Pinggir"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-2t-set",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam 2T Set",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam 2T Set.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam 2T Set"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-3t-pinggir",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam 3T Pinggir",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam 3T Pinggir.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam 3T Pinggir"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-3t-set",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam 3T Set",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam 3T Set.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam 3T Set"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-box-meja",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam Box Meja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam Box Meja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam Box Meja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-box-tanam",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam Box Tanam",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam Box Tanam (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam Box Tanam"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-ayam-utama",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Ayam Utama",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Ayam Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Ayam Utama"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-puyuh-holo",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Puyuh Holo",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Puyuh Holo (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Puyuh Holo"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-rangka-puyuh-siku",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Rangka Puyuh Siku",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Rangka Puyuh Siku (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rangka Puyuh Siku"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-spesifikasi-kandang",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "SPESIFIKASI KANDANG",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/SPESIFIKASI KANDANG (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "SPESIFIKASI KANDANG"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-talang-pakan",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Talang Pakan",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Talang Bulat + Tutup.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Talang Pakan"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-tangga",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Tangga",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Tangga (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Tangga"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-tangkringan-jati",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Tangkringan Jati",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Tangkringan Jati (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Tangkringan Jati"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-tangkringan-ranting-kopi",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Tangkringan Ranting Kopi",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Tangkringan Ranting Kopi (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Tangkringan Ranting Kopi"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-tiang-rangka-ayam",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Tiang Rangka Ayam",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Tiang Rangka Ayam (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Tiang Rangka Ayam"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "aksesoris-tiang-rangka-utama",
+    "category": "Aksesoris",
+    "productLine": "Aksesoris Kandang",
+    "title": "Tiang Rangka Utama",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AKSESORIS/Tiang Rangka Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Tiang Rangka Utama"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-fullset-6p",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "Fullset 6P",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/Fullset 6P 110 (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Fullset 6P"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2p60",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai 1 Tingkat",
+    "title": "2P60",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/2P60 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2P60"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-4p110",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai 1 Tingkat",
+    "title": "4P110",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4P110"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-4p120",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai 1 Tingkat",
+    "title": "4P120",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/4P120 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4P120"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-6p110",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai 1 Tingkat",
+    "title": "6P110",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/6P110 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6P110"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-baterai",
+    "category": "Kandang Ayam",
+    "productLine": "Baterai 1 Tingkat",
+    "title": "Baterai",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/1 TINGKAT/Baterai Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Baterai"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-110-a",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 110 A",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 110 A.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 110 A"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-110-b",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 110 B",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 110 B.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 110 B"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-110-c",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 110 C",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 110 C.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 110 C"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-120-a",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 120 A",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 120 A.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 120 A"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-120-b",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 120 B",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 120 B.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 120 B"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-4p-120-c",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 4P 120 C",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 4P 120 C.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 4P 120 C"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-6p-110-a",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 6P 110 A",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 6P 110 A.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 6P 110 A"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-6p-110-b",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 6P 110 B",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 6P 110 B.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 6P 110 B"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2t-6p-110-c",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "2T 6P 110 C",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/2T 6P 110 C.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2T 6P 110 C"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-fullset",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 2 Tingkat",
+    "title": "Fullset",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/2 TINGKAT/Fullset Utama 2 Tingkat (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Fullset"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3t-4p-110-box",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 3 Tingkat",
+    "title": "3T 4P 110 Box",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/3T 4P 110 Box.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3T 4P 110 Box"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3t-4p",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 3 Tingkat",
+    "title": "3T 4P",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/3T 4P 110.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3T 4P"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3t-4p-120-box",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 3 Tingkat",
+    "title": "3T 4P 120 Box",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/3T 4P 120 Box.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3T 4P 120 Box"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3t-6p-110-box",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 3 Tingkat",
+    "title": "3T 6P 110 Box",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/3T 6P 110 Box.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3T 6P 110 Box"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3t-6p",
+    "category": "Kandang Ayam",
+    "productLine": "Fullset 3 Tingkat",
+    "title": "3T 6P",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/3 TINGKAT/3T 6P 110.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3T 6P"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-paket",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "Paket",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/Paket 600 (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Paket"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3f1cbeb0-7186-40d7-ac13-08a35853aa05",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "3f1cbeb0-7186-40d7-ac13-08a35853aa05",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/3f1cbeb0-7186-40d7-ac13-08a35853aa05.jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3f1cbeb0-7186-40d7-ac13-08a35853aa05"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-679835c0-5dee-452b-b2cb-1a60628858b7",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "679835c0-5dee-452b-b2cb-1a60628858b7",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/679835c0-5dee-452b-b2cb-1a60628858b7.jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "679835c0-5dee-452b-b2cb-1a60628858b7"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-af9f89b1-bad3-43ce-b9cc-288c812a0944",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "af9f89b1-bad3-43ce-b9cc-288c812a0944",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/af9f89b1-bad3-43ce-b9cc-288c812a0944.jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "af9f89b1-bad3-43ce-b9cc-288c812a0944"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-c3dd4acf-eab7-43c9-a837-95d232c00671",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "c3dd4acf-eab7-43c9-a837-95d232c00671",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/c3dd4acf-eab7-43c9-a837-95d232c00671.jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "c3dd4acf-eab7-43c9-a837-95d232c00671"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-d59711fb-69b9-43c1-8e49-386dd941cf43",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "d59711fb-69b9-43c1-8e49-386dd941cf43",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/d59711fb-69b9-43c1-8e49-386dd941cf43.jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "d59711fb-69b9-43c1-8e49-386dd941cf43"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-whatsapp-image-2025-10-08-at-215032",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "WhatsApp Image 2025-10-08 at 21.50.32",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/WhatsApp Image 2025-10-08 at 21.50.32 (1).jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "WhatsApp Image 2025-10-08 at 21.50.32"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-whatsapp-image-2025-10-08-at-215121",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "WhatsApp Image 2025-10-08 at 21.51.21",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/WhatsApp Image 2025-10-08 at 21.51.21 (1).jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "WhatsApp Image 2025-10-08 at 21.51.21"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-whatsapp-image-2025-10-08-at-215122",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "WhatsApp Image 2025-10-08 at 21.51.22",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/WhatsApp Image 2025-10-08 at 21.51.22 (1).jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "WhatsApp Image 2025-10-08 at 21.51.22"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-whatsapp-image-2025-10-08-at-215123",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "WhatsApp Image 2025-10-08 at 21.51.23",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/600 EKOR/New folder/WhatsApp Image 2025-10-08 at 21.51.23 (1).jpeg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "WhatsApp Image 2025-10-08 at 21.51.23"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-1",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "1",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/1.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "1"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-2",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "2",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/2.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-3",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "3",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/3.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-4",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "4",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/4.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-5",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "5",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/5.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "5"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-6",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "6",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/6.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-7",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "7",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/7.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "7"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-8",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "8",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/8.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "8"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-9",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "9",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/9.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "9"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-ayam-struktur",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "Ayam Struktur",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/Ayam Struktur (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Ayam Struktur"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-cover-ayam-panggung",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "Cover Ayam panggung",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/Cover Ayam panggung.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Cover Ayam panggung"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-id-11134231-8224p-mhw0xdkeir6064resizess400x400cropw1200h1200ct",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "id-11134231-8224p-mhw0xdkeir6064@resize_ss400x400!@crop_w1200_h1200_cT",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/AYAM PANGGUNG/id-11134231-8224p-mhw0xdkeir6064@resize_ss400x400!@crop_w1200_h1200_cT.jpg"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "id-11134231-8224p-mhw0xdkeir6064@resize_ss400x400!@crop_w1200_h1200_cT"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-4p-110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "4P 110 ECO",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/ECO/4P 110 ECO (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4P 110 ECO"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-4p-120-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "4P 120 ECO",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/ECO/4P 120 ECO (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4P 120 ECO"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang ayam-6p-110-eco",
+    "category": "Kandang Ayam",
+    "productLine": "Kandang Ayam",
+    "title": "6P 110 ECO",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/AYAM/ECO/6P 110 ECO (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6P 110 ECO"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-2-hole-100x70x50",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "2 Hole 100X70x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/2 Hole 100X70x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2 Hole 100X70x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-2-hole-80x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "2 Hole 80X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/2 Hole 80X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2 Hole 80X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-2-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "2 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/2 Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "2 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-3-hole-150x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "3 Hole 150X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/3 Hole 150X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3 Hole 150X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-3-hole-150x70x50",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "3 Hole 150X70x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/3 Hole 150X70x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3 Hole 150X70x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-3-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "3 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/3 Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "3 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-4-hole-160x50x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "4 Hole 160X50x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/4 Hole 160X50x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4 Hole 160X50x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-4-hole-160x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "4 Hole 160X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/4 Hole 160X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4 Hole 160X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-4-hole-160x70x50",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "4 Hole 160X70x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/4 Hole 160X70x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4 Hole 160X70x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-4-hole-200x70x50",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "4 Hole 200X70x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/4 Hole 200X70x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4 Hole 200X70x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-4-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "4 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/4 Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "4 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-5-hole-150x50x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "5 Hole 150X50x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/5 Hole 150X50x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "5 Hole 150X50x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-5-hole-150x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "5 Hole 150X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/5 Hole 150X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "5 Hole 150X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-5-hole-200x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "5 Hole 200X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/5 Hole 200X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "5 Hole 200X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-5-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "5 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/5 Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "5 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-6-hole-180x50x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "6 Hole 180X50x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/6 Hole 180X50x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6 Hole 180X50x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-6-hole-180x70x40",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "6 Hole 180X70x40",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/6 Hole 180X70x40.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6 Hole 180X70x40"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-6-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "6 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/6 Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "6 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-kandang-kelinci-breeding-1",
+    "category": "Kandang Kelinci",
+    "productLine": "Breeding",
+    "title": "Kandang Kelinci Breeding 1",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Kandang Kelinci Breeding 1.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kandang Kelinci Breeding 1"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-kandang-kelinci-breeding-2",
+    "category": "Kandang Kelinci",
+    "productLine": "Breeding",
+    "title": "Kandang Kelinci Breeding 2",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Kandang Kelinci Breeding 2.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kandang Kelinci Breeding 2"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-kandang-kelinci-breeding-3",
+    "category": "Kandang Kelinci",
+    "productLine": "Breeding",
+    "title": "Kandang Kelinci Breeding 3",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Kandang Kelinci Breeding 3.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kandang Kelinci Breeding 3"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-kelinci-all-size",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Kelinci All size",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Kelinci All size (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kelinci All size"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-kelinci-breeding-2",
+    "category": "Kandang Kelinci",
+    "productLine": "Breeding",
+    "title": "Kelinci Breeding 2",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Kelinci Breeding 2.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kelinci Breeding 2"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-l-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "L Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/L Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-l-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "L Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/L Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-l",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "L",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/L Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-all-size",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT All size",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT All size (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT All size"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-kelinci-all-size",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT Kelinci All size",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT Kelinci All size (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT Kelinci All size"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-l-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT L Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT L Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT L Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-l-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT L Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT L Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT L Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-l",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT L",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT L Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT L"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-m-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT M Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT M Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT M Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-m-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT M Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT M Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT M Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-m",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT M",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT M Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT M"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-xl-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT XL Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT XL Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT XL Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-xl-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT XL Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT XL Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT XL Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-lipat-xl",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier LIPAT",
+    "title": "LIPAT XL",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/LIPAT XL Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "LIPAT XL"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-m-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "M Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/M Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-m-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "M Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/M Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-m",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "M",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/M Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-miring-2-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Miring 2 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Miring 2 Hole 100.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Miring 2 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-miring-3-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Miring 3 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Miring 3 Hole 120.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Miring 3 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-miring-4-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Miring 4 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Miring 4 Hole 160.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Miring 4 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-miring-5-hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Miring 5 Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Miring 5 Hole 200.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Miring 5 Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-miring",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Miring",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Miring.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Miring"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-paket-kandang-kelinci",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Paket Kandang Kelinci",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Paket Kandang Kelinci 01.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Paket Kandang Kelinci"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-paket-kandang-kelinci-cor",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Paket Kandang Kelinci COR",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Paket Kandang Kelinci COR (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Paket Kandang Kelinci COR"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-paket-kandang-kelinci-cor-3",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Paket Kandang Kelinci COR 3",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Paket Kandang Kelinci COR 3.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Paket Kandang Kelinci COR 3"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-paket-kandang-kelinci-cor-4",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Paket Kandang Kelinci COR 4",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Paket Kandang Kelinci COR 4.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Paket Kandang Kelinci COR 4"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-100x50-2hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 100x50 2Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 100x50 2Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 100x50 2Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-150x50-3hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 150x50 3Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 150x50 3Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 150x50 3Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-160x40-4hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 160x40 4Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 160x40 4Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 160x40 4Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-180x40-6hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 180x40 6Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 180x40 6Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 180x40 6Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-200x40-5hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 200x40 5Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 200x40 5Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 200x40 5Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan-200x50-4hole",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan 200x50 4Hole",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan 200x50 4Hole.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan 200x50 4Hole"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-depan",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Depan",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Depan.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Depan"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-lantai-100x50",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Lantai 100x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Lantai 100x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Lantai 100x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-lantai-150x70",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Lantai 150x70",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Lantai 150x70.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Lantai 150x70"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-lantai-200x70",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Lantai 200x70",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Lantai 200x70.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Lantai 200x70"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-part-lantai",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Part Lantai",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Part Lantai.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Part Lantai"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-rabbit-show-medium",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Rabbit Show Medium",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Rabbit Show Medium.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rabbit Show Medium"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-rabbit-show-mini",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Rabbit Show Mini",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Rabbit Show Mini.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Rabbit Show Mini"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-umbar-90x60",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Umbar 90x60",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Umbar 90x60.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Umbar 90x60"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-umbar",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "Umbar",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/Umbar.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Umbar"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-xl-kandang-saja",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "XL Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/XL Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-xl-komplit",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "XL Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/XL Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang kelinci-xl",
+    "category": "Kandang Kelinci",
+    "productLine": "Carrier",
+    "title": "XL",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/KELINCI/XL Utama (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-120x50",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary 120x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary 120x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary 120x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-120x70",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary 120x70",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary 120x70.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary 120x70"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-90x60",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary 90x60",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary 90x60.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary 90x60"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-kandang-120x50",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary Kandang 120x50",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary Kandang 120x50.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary Kandang 120x50"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-kandang-120x70",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary Kandang 120x70",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary Kandang 120x70.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary Kandang 120x70"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-kandang-90x60",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary Kandang 90x60",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary Kandang 90x60.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary Kandang 90x60"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-kandang-saja",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-po-2",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary PO (2)",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary PO (2) (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary PO (2)"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary-po",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary PO",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary PO (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary PO"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary Utama.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-aviary70-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Aviary70 Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Aviary70 Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Aviary70 Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-kandang-burung-master",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "Kandang Burung Master",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Kandang Burung Master.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Kandang Burung Master"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-l-kandang-saja",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "L Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/L Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-l-komplit-brg",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "L Komplit BRG",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/L Komplit BRG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L Komplit BRG"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-l-komplit-sg",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "L Komplit SG",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/L Komplit SG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L Komplit SG"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-l",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "L",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/L Utama BRG (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "L"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-m-brg-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "M BRG Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/M BRG Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M BRG Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-m-kandang-saja",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "M Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/M Kandang Saja (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-m-komplit-sg",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "M Komplit SG",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/M Komplit SG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M Komplit SG"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-m",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "M",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/M Utama BRG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "M"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-perbedaan-aviary-umbar",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Mini Aviary",
+    "title": "Perbedaan Aviary Umbar",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/Perbedaan Aviary Umbar.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "Perbedaan Aviary Umbar"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xl-brg-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "XL BRG Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XL BRG Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL BRG Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xl-kandang-saja",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "XL Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XL Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xl-sg-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "XL SG Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XL SG Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL SG Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xl",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Kandang Burung",
+    "title": "XL",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XL Utama BRG (2).png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XL"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xxl-brg-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Umbaran",
+    "title": "XXL BRG Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XXL BRG Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XXL BRG Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xxl-kandang-saja",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Umbaran",
+    "title": "XXL Kandang Saja",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XXL Kandang Saja.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XXL Kandang Saja"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xxl-sg-komplit",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Umbaran",
+    "title": "XXL SG Komplit",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XXL SG Komplit.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XXL SG Komplit"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  },
+  {
+    "id": "kandang burung-exotic-xxl",
+    "category": "Kandang Burung & Exotic",
+    "productLine": "Umbaran",
+    "title": "XXL",
+    "subtitle": "Produk sedang habis - Coming Soon",
+    "specs": {
+      "material": [
+        "Informasi akan segera diupdate"
+      ],
+      "notes": [
+        "Produk tersedia, mohon hubungi untuk info stok"
+      ]
+    },
+    "features": [
+      "Produk berkualitas",
+      "Hubungi untuk info stok dan harga"
+    ],
+    "variants": [
+      {
+        "variantName": "Standard",
+        "packageContents": [
+          "1 Unit"
+        ],
+        "price": {
+          "min": 0,
+          "max": 0,
+          "currency": "IDR",
+          "rawText": "Hubungi Kami"
+        }
+      }
+    ],
+    "images": [
+      {
+        "sourcePdf": "Product Photo",
+        "page": 1,
+        "localPath": "/assets/image/BURUNG/XXL Utama BRG.png"
+      }
+    ],
+    "source": {
+      "pdf": "Product Photo Library",
+      "pages": [
+        1
+      ],
+      "rawSnippets": [
+        "XXL"
+      ]
+    },
+    "needsReview": true,
+    "outOfStock": true
+  }
+];
+
+// Helper functions for filtering and searching
+export const getProductsByCategory = (category: string): Product[] => {
+  return PRODUCTS.filter(p => p.category === category);
+};
+
+export const getProductById = (id: string): Product | undefined => {
+  return PRODUCTS.find(p => p.id === id);
+};
+
+export const getAllCategories = (): string[] => {
+  return Array.from(new Set(PRODUCTS.map(p => p.category)));
+};
+
+export const getProductsNeedingReview = (): Product[] => {
+  return PRODUCTS.filter(p => p.needsReview);
+};

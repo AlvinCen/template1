@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { Menu, X, ShoppingBag, Phone, MapPin, Instagram, ExternalLink } from 'lucide-react';
 import { SHOP_INFO } from '../constants';
+import SocialIcons from './SocialIcons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,39 +10,42 @@ const Navbar = () => {
   const links = [
     { name: 'Home', path: '/' },
     { name: 'Produk', path: '/produk' },
-    { name: 'Cara Pesan', path: '/cara-pesan' },
-    { name: 'Tentang Kami', path: '/tentang' },
-    { name: 'Hubungi', path: '/kontak' },
+    { name: 'Project', path: '/project' },
+    { name: 'Tutorial Perakitan', path: '/tutorial-perakitan' },
+    { name: 'Perusahaan', path: '/perusahaan' },
+    { name: 'Hubungi Kami', path: '/hubungi-kami' },
   ];
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex items-center">
+        <div className="flex justify-between h-20">
+          <div className="flex items-center gap-8">
             <NavLink to="/" className="flex-shrink-0 flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-white font-bold text-xl">
-                L
-              </div>
-              <span className="font-bold text-xl text-secondary tracking-tight">Laquila Store</span>
+              <img src="/assets/laquila-logo.png" alt="Laquila Store" className="h-24 w-auto" />
             </NavLink>
+
+            {/* Desktop Menu - Moved closer to logo */}
+            <div className="hidden md:flex items-center space-x-4">
+              {links.map((link) => (
+                <NavLink
+                  key={link.path}
+                  to={link.path}
+                  className={({ isActive }) =>
+                    `text-sm font-medium transition-colors duration-200 ${isActive ? 'text-primary' : 'text-gray-500 hover:text-secondary'
+                    }`
+                  }
+                >
+                  {link.name}
+                </NavLink>
+              ))}
+            </div>
           </div>
-          
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            {links.map((link) => (
-              <NavLink
-                key={link.path}
-                to={link.path}
-                className={({ isActive }) =>
-                  `text-sm font-medium transition-colors duration-200 ${
-                    isActive ? 'text-primary' : 'text-gray-500 hover:text-secondary'
-                  }`
-                }
-              >
-                {link.name}
-              </NavLink>
-            ))}
+
+          {/* Right side: Social Icons and Shopee Button */}
+          <div className="hidden md:flex items-center gap-3">
+            <SocialIcons />
+
             <a
               href={SHOP_INFO.shopeeUrl}
               target="_blank"
@@ -75,8 +79,7 @@ const Navbar = () => {
                 to={link.path}
                 onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
-                  `block px-3 py-2 rounded-md text-base font-medium ${
-                    isActive ? 'text-primary bg-orange-50' : 'text-gray-600 hover:text-secondary hover:bg-gray-50'
+                  `block px-3 py-2 rounded-md text-base font-medium ${isActive ? 'text-primary bg-orange-50' : 'text-gray-600 hover:text-secondary hover:bg-gray-50'
                   }`
                 }
               >
@@ -91,6 +94,11 @@ const Navbar = () => {
             >
               Kunjungi Shopee
             </a>
+
+            {/* Social Icons in mobile */}
+            <div className="mt-6 flex justify-center">
+              <SocialIcons />
+            </div>
           </div>
         </div>
       )}
@@ -114,7 +122,7 @@ const Footer = () => {
               {SHOP_INFO.tagline}. Menyediakan kandang ayam berkualitas tinggi dengan harga pengrajin. Solusi tepat untuk memulai usaha ternak Anda.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4 text-orange-400">Hubungi Kami</h4>
             <ul className="space-y-3 text-gray-300 text-sm">
@@ -144,7 +152,7 @@ const Footer = () => {
             <p className="text-gray-400 text-xs mt-4">Pemesanan di luar jam operasional akan diproses hari berikutnya.</p>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm text-center md:text-left">
             &copy; {new Date().getFullYear()} Laquila Store. All rights reserved.

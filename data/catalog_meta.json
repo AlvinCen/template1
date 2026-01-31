@@ -1,0 +1,21 @@
+{
+    "brand": {
+        "name": "Laquila Store",
+        "tagline": "SiPaling Kandang — Mengerti Kebutuhan Hewan Anda",
+        "whatsapp": "0856 2444 9240",
+        "handles": {
+            "shopee": "LaquilaStore1"
+        }
+    },
+    "globalSellingPoints": [
+        "Material utama Galvanis (tahan karat & korosi)",
+        "Finishing Powder Coating (finishing premium, perlindungan ekstra)",
+        "Banyak varian produk (tipe, ukuran, warna, aksesoris bisa disesuaikan)",
+        "Desain segmented, modern, kokoh & praktis",
+        "Setiap produk memiliki video tutorial perakitan",
+        "Harga bersaing, banyak promo, garansi & jaminan kualitas"
+    ],
+    "notes": [
+        "Semua teks/angka diambil dari PDF. Jika ada yang tidak terbaca, tandai 'needsReview: true'."
+    ]
+}
