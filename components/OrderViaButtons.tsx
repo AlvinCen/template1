@@ -1,33 +1,34 @@
-import React from 'react';
-import { MessageCircle, ShoppingBag, Package, Music } from 'lucide-react';
+import { SiWhatsapp, SiShopee, SiTiktok } from 'react-icons/si';
+import { RiShoppingBag3Fill } from 'react-icons/ri';
 import { links } from '../data/links';
+import { SHOP_INFO } from '../constants';
 
 const OrderViaButtons = () => {
     const orderChannels = [
         {
             name: 'WhatsApp',
-            icon: MessageCircle,
-            url: links.order.whatsapp ? `https://wa.me/${links.order.whatsapp}` : null,
+            icon: SiWhatsapp,
+            url: links.order.whatsapp ? `https://wa.me/${links.order.whatsapp}?text=${encodeURIComponent(SHOP_INFO.whatsappMessage)}` : null,
             bgColor: 'bg-green-600 hover:bg-green-700',
             disabledBg: 'bg-gray-300'
         },
         {
             name: 'Shopee',
-            icon: ShoppingBag,
+            icon: SiShopee,
             url: links.order.shopee,
             bgColor: 'bg-orange-600 hover:bg-orange-700',
             disabledBg: 'bg-gray-300'
         },
         {
             name: 'Tokopedia',
-            icon: Package,
+            icon: RiShoppingBag3Fill,
             url: links.order.tokopedia,
             bgColor: 'bg-green-500 hover:bg-green-600',
             disabledBg: 'bg-gray-300'
         },
         {
             name: 'TikTok',
-            icon: Music,
+            icon: SiTiktok,
             url: links.order.tiktok,
             bgColor: 'bg-black hover:bg-gray-800',
             disabledBg: 'bg-gray-300'
@@ -65,7 +66,7 @@ const OrderViaButtons = () => {
                     return (
                         <a
                             key={channel.name}
-                            href={channel.url}
+                            href={channel.url!}
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`${channel.bgColor} text-white font-semibold py-2 px-4 rounded-lg flex items-center gap-2 transition-colors shadow-md`}

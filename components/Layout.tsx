@@ -132,7 +132,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary" />
-                <a href={`https://wa.me/${SHOP_INFO.whatsapp}`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                <a href={`https://wa.me/${SHOP_INFO.whatsapp}?text=${encodeURIComponent(SHOP_INFO.whatsappMessage)}`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
                   +62 {SHOP_INFO.whatsapp.substring(2)}
                 </a>
               </li>

@@ -15,10 +15,10 @@ const Contact = () => {
           {/* Contact Info Card */}
           <div className="bg-white rounded-2xl shadow-sm p-8">
             <h2 className="text-xl font-bold text-gray-900 mb-6 border-b pb-4">Informasi Kontak</h2>
-            
+
             <div className="space-y-6">
-              <a 
-                href={`https://wa.me/${SHOP_INFO.whatsapp}`}
+              <a
+                href={`https://wa.me/${SHOP_INFO.whatsapp}?text=${encodeURIComponent(SHOP_INFO.whatsappMessage)}`}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-start gap-4 p-4 rounded-lg hover:bg-orange-50 transition-colors group"
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a 
+              <a
                 href={SHOP_INFO.shopeeUrl}
                 target="_blank"
                 rel="noreferrer"
@@ -87,7 +87,7 @@ const Contact = () => {
                 <p className="text-gray-600 text-sm mb-4">
                   Dapatkan harga khusus untuk pembelian dalam jumlah banyak (partai besar) untuk dijual kembali.
                 </p>
-                <a 
+                <a
                   href={`https://wa.me/${SHOP_INFO.whatsapp}?text=Halo%20Laquila%20Store,%20saya%20tertarik%20menjadi%20reseller.`}
                   className="inline-block text-primary font-bold hover:underline"
                 >

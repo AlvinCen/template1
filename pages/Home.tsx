@@ -123,21 +123,35 @@ const Home = () => {
       <section className="py-16 bg-neutral">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Kata Mereka</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-8 max-w-4xl mx-auto">
             {TESTIMONIALS.map(testi => (
-              <div key={testi.id} className="bg-white p-6 rounded-xl relative shadow-sm">
-                <div className="text-primary text-4xl font-serif absolute top-4 left-4 opacity-20">"</div>
-                <p className="text-gray-600 mb-6 relative z-10 italic">
-                  {testi.content}
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="font-bold text-gray-900">{testi.name}</div>
-                  <div className="flex text-yellow-400">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className={i < testi.rating ? "text-yellow-400" : "text-gray-300"}>★</span>
-                    ))}
+              <div key={testi.id} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group overflow-hidden border border-gray-100">
+                {testi.imageUrl ? (
+                  <div className="flex flex-col h-full">
+                    <div className="relative overflow-hidden rounded-lg bg-gray-50 border border-gray-100">
+                      <img
+                        src={testi.imageUrl}
+                        alt={`Review by ${testi.name}`}
+                        className="w-full h-auto object-contain"
+                      />
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <>
+                    <div className="text-primary text-4xl font-serif absolute top-4 left-4 opacity-20">"</div>
+                    <p className="text-gray-600 mb-6 relative z-10 italic text-xl leading-relaxed">
+                      {testi.content}
+                    </p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="font-bold text-gray-900 text-xl">{testi.name}</div>
+                      <div className="flex text-yellow-400 text-lg">
+                        {[...Array(5)].map((_, i) => (
+                          <span key={i} className={i < testi.rating ? "text-yellow-400" : "text-gray-300"}>★</span>
+                        ))}
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             ))}
           </div>
@@ -161,7 +175,7 @@ const Home = () => {
               <ShoppingBag size={20} /> Order via Shopee
             </a>
             <a
-              href={`https://wa.me/${SHOP_INFO.whatsapp}`}
+              href={`https://wa.me/${SHOP_INFO.whatsapp}?text=${encodeURIComponent(SHOP_INFO.whatsappMessage)}`}
               target="_blank"
               rel="noreferrer"
               className="bg-transparent border border-white text-white hover:bg-white hover:text-secondary font-bold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2"

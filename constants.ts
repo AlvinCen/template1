@@ -7,13 +7,14 @@ export const SHOP_INFO = {
   tagline: "Animal Cages Workshop - SiPaling Kandang",
   whatsapp: "6285624449240",
   shopeeUrl: "https://shopee.co.id/laquilastore1",
-  location: "Jawa Barat, Indonesia",
+  location: "Jl Assalam Km 1, Babakanbandung RT008/003, Kelurahan Nanggeleng, Kecamatan Citamiang, Kota Sukabumi",
   openingHours: "Senin - Sabtu: 08.00 - 17.00 WIB",
   socialMedia: {
     youtube: "Laquila Store",
     facebook: "Laquila Store",
     instagram: "Laquila Store"
   },
+  whatsappMessage: "Halo Kak 👋\nSaya tertarik dengan produk kandang di web Laquila.\nMohon info detail & harga terbarunya ya",
   usp: [
     "Material Galvanis Anti Karat",
     "Lapisan Powder Coating",
@@ -130,7 +131,7 @@ export const PRODUCTS: Product[] = [
     shopeeUrl: "https://shopee.co.id/laquilastore1",
     isBestSeller: false
   },
-    {
+  {
     id: "ax1",
     name: "Nipple Drinker Automatis",
     priceRange: "Rp 3.500 - Rp 5.000",
@@ -191,21 +192,24 @@ export const MARKETPLACE_PARTNERS = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: "t1",
-    name: "Budi Santoso",
-    content: "Barang mendarat dengan aman. Rakitnya gampang banget, cuma butuh tang. Galvanisnya kelihatan tebal. Sukses terus gan.",
-    rating: 5
+    name: "Ida",
+    content: "Kakkkk bagus banget.. keren bangeettt sy suka sekali sejak beli kandang 120x60x150 sy sdh puas dg pelayanan yg diberikan komunikasi yg lancar, cepat, santun kali ini beli tangkringan request bentuk dan ukurannya mantap kak bagus banget, gak sabar segera pasang terima kasih banyak kakak.. sukses selalu unt harga .. paling bersahabat .. kwalitas the best",
+    rating: 5,
+    imageUrl: "/reviews/review1.png"
   },
   {
     id: "t2",
-    name: "Peternak Maju",
-    content: "Kandang baterainya presisi, telur langsung gelinding ke depan jadi nggak keinjek ayam. Seller ramah via chat.",
-    rating: 5
+    name: "r*****n",
+    content: "Material besi jadi kuat, kualitas sangat bagus, kegunaan untuk kandang ayam. Kiriman sudah diterima, hanya kontainer untuk penampung airnya rusak saat pengiriman, dan akan diganti oleh seller. Sellernya sangat responsif untuk membantu. Overall barangnya bagus, dan istri sangat senang menerimanya. Terima kasih untuk sellernya ya.",
+    rating: 5,
+    imageUrl: "/reviews/review2.png"
   },
   {
     id: "t3",
-    name: "Rina Wati",
-    content: "Pengiriman cepat. Untuk harga segini kualitasnya oke banget buat pemula seperti saya.",
-    rating: 4
+    name: "2apttm9lsx",
+    content: "Durabilitas produk bagus, cocok untuk ayam petelur, material besi berkualitas tinggi dan kokoh. Terima kasih utk toko nya.. pengiriman sangat cepat dari estimasi.. sudah 2 kali order di toko ini sangat memuaskan.",
+    rating: 5,
+    imageUrl: "/reviews/review3.png"
   }
 ];
 

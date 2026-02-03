@@ -16,6 +16,7 @@ export interface Testimonial {
   name: string;
   content: string;
   rating: number;
+  imageUrl?: string;
 }
 
 export interface NavItem {
